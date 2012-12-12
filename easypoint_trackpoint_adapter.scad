@@ -1,20 +1,3 @@
-p = 4;
-test(5);
-echo(p);
-
-p = 6;
-test(8);
-echo(p);
-
-module test(q)
-{
-    p = 2 + q;
-    echo(p);
-
-    p = 4 + q;
-    echo(p);
-}
-
 outer = 20;
 inner=10;
 s=1.2*outer/2;
